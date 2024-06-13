@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" class="mat-elevation-z6">
+    <span>Welcome </span>
+    <span class="text-capitalize fw-bold">&ensp;{{userName}}</span>
+    <div class=" spacer"></div>
+    <a mat-button routerLink='/home'>home</a>
+    <a mat-button routerLink='/predictions'>predictions</a>
+    <a mat-raised-button color="warn"(click)="logout()">logout</a>
+
+
+</mat-toolbar>
